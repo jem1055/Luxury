@@ -103,7 +103,7 @@ const Propos = () => {
                 this multi-collapse example. This panel is hidden by default but
                 revealed when the user activates the relevant trigger.
               </div>
-              <div class="row mb-6 mt-3">
+              <div className="row mb-6 mt-3">
                 <div className={style_image_two}>
                   <img
                     src="/img/Propos/juntas.jpg"
@@ -131,7 +131,7 @@ const Propos = () => {
                 </div>
               </div>
             </div>
-            <div class={style_text_three}>
+            <div className={style_text_three}>
               <div className="card card-body mt-2">
                 3. Some placeholder content for the first collapse component of
                 this multi-collapse example. This panel is hidden by default but

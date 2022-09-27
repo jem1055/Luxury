@@ -57,7 +57,7 @@ export default function Nav() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/prueba">
+                <a className="nav-link" href="/">
                   Locations
                 </a>
               </li>
