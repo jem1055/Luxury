@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const HeadTwo = () => {
   return (
     <div className="fluid Head_two">

@@ -1,9 +1,7 @@
 import Head from "next/head";
 import Nav from "../components/Navar";
-import Image from "next/image";
 import Head_one from "../components/Head";
 import Head_two from "../components/HeadTwo";
-import Footer from "./Footer";
 
 export default function Home({ children, tittle, description, home }) {
   return (

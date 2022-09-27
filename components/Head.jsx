@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const head = () => {
   return (
     <div className="d-flex justify-content-center mt-3 mb-3">
