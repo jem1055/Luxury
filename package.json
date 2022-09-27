@@ -2,12 +2,15 @@
   "name": "luxury",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jem1055.github.io/Luxury/",
   "scripts": {
     "dev": "next dev",
     "export": "next export",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "next": "12.2.5",
@@ -17,6 +20,7 @@
   },
   "devDependencies": {
     "eslint": "8.23.0",
-    "eslint-config-next": "12.2.5"
+    "eslint-config-next": "12.2.5",
+    "gh-pages": "^4.0.0"
   }
 }
