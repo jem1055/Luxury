@@ -2,21 +2,20 @@
   "name": "luxury",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jem1055.github.io/Luxury/",
   "scripts": {
     "dev": "next dev",
     "export": "next export",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run export",
-    "deploy": "gh-pages -d out",
     "prod": "next build && next export"
   },
   "dependencies": {
+    "eslint-plugin-react-hooks": "^4.6.0",
     "next": "12.2.5",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-dom": "18.2.0",
+    "react-intl": "^6.1.2",
     "sweetalert2": "^11.4.33"
   },
   "devDependencies": {

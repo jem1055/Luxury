@@ -34,9 +34,9 @@
   background-position: top -250px right -1350px;
 }
 
-.opacity_5 {
+.opacity_6 {
   background-color: "#ff666";
-  opacity: 0.5;
+  opacity: 0.6;
   filter: (opacity=50);
 }
 
@@ -61,7 +61,7 @@
 }
 
 .mt-n2 {
-  margin-top: -2.5rem !important;
+  margin-top: -3rem !important;
 }
 
 .mt-n1 {
@@ -79,4 +79,24 @@
 
 .mt-6 {
   margin-top: 6rem !important;
+}
+
+.nav-link {
+  color: #000000 !important;
+}
+
+.banderas button {
+  border: none;
+  cursor: pointer;
+  background: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: inline-block;
+  width: 30px;
+  margin-left: 10px;
+}
+
+.banderas button img {
+  width: 100%;
 }

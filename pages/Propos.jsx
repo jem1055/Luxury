@@ -27,7 +27,7 @@ const Propos = () => {
       style_text_one = "col-md-8 mt-3 ";
       style_text_two += " d-none ";
       style_text_three += "d-none";
-      card_one = " card card-body ";
+      card_one = " card card-body font_one opacity_6";
     },
     SS: () => {
       Juanita = "d-none ";
@@ -84,13 +84,13 @@ const Propos = () => {
           <div className="row">
             <div className={style_image_one}>
               <img
-                src="/img/Propos/Juanita.jpg"
+                src="/img/Propos/Juanita.png"
                 className={Juanita}
                 alt="image"
                 onClick={stateImage === "IS" ? open : inicial}
               />
               <img
-                src="/img/Propos/juntas.jpg"
+                src="/img/Propos/juntas.png"
                 className={juntas1}
                 alt="image"
                 onClick={stateImage === "IS" ? open1 : inicial}
@@ -99,31 +99,33 @@ const Propos = () => {
 
             <div className={style_text_one}>
               <div className={card_one}>
-                1. Some placeholder content for the first collapse component of
-                this multi-collapse example. This panel is hidden by default but
-                revealed when the user activates the relevant trigger.
+                Je suis Juanita, une des créatrices de cette magnifique
+                entreprise . Chaque espace mérite une touche de magie, mon but
+                est de transformer vos événements de rêve et les rendre un
+                souvenir pour l´éternité.
               </div>
               <div className="row mb-6 mt-3">
                 <div className={style_image_two}>
                   <img
-                    src="/img/Propos/juntas.jpg"
+                    src="/img/Propos/juntas.png"
                     className={juntas}
                     alt="image"
                     onClick={stateImage === "IS" ? open1 : inicial}
                   />
                 </div>
                 <div className={style_text_two}>
-                  <div className="card card-body">
-                    2.Some placeholder content for the first collapse component
-                    of this multi-collapse example. This panel is hidden by
-                    default but revealed when the user activates the relevant
-                    trigger.
+                  <div className="card card-body font_one opacity_6">
+                    On se présente, Juanita et Maria comme fondatrices de Luxury
+                    Events JM.Notre but est de transformer vos moments précieux
+                    en transmettant de la magie et de l´amour. Il est important
+                    pour nous de personnaliser votre fête et la rendre unique et
+                    mémorable. Merci de votre confiance.
                   </div>
                 </div>
 
                 <div className={style_image_three}>
                   <img
-                    src="/img/Propos/María.jpg"
+                    src="/img/Propos/María.png"
                     className={Maria}
                     alt="image"
                     onClick={stateImage === "IS" ? open2 : inicial}
@@ -132,10 +134,11 @@ const Propos = () => {
               </div>
             </div>
             <div className={style_text_three}>
-              <div className="card card-body mt-2">
-                3. Some placeholder content for the first collapse component of
-                this multi-collapse example. This panel is hidden by default but
-                revealed when the user activates the relevant trigger.
+              <div className="card card-body mt-2 font_one opacity_6">
+                Je suis Maria Diaz, Co-fondatrice de Luxury Events JM Je me suis
+                donné pour but de toujours voir l´émerveillement dans vos yeux
+                lors d´une création. C´est pourquoi je reste à l´affût des
+                nouvelles façons de faire. Au plaisir de vous rencontrer.
               </div>
             </div>
           </div>

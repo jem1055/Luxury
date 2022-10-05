@@ -35,23 +35,23 @@ export default function Nav() {
                   </li>
                   <li>
                     <a className="dropdown-item" href="/">
-                      Baby shower
+                      Baby Shower
                     </a>
                   </li>
 
                   <li>
                     <a className="dropdown-item" href="/">
-                      Fëte d´enfants
+                      Fête d´enfants
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="/">
-                      Fëte d´anniversaire
+                      Fête d´anniversaire
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="/">
-                      Événements corparatifs
+                      Événements corporatifs
                     </a>
                   </li>
                 </ul>
@@ -63,7 +63,7 @@ export default function Nav() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/Propos">
-                  Á propos de nous
+                  À propos de nous
                 </a>
               </li>
               <li className="nav-item">
