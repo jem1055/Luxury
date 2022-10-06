@@ -100,3 +100,16 @@
 .banderas button img {
   width: 100%;
 }
+
+.btn_person {
+  color: #fefdfc;
+  background-color: #f49cc2;
+  border: #f49cc2;
+  border-radius: 10%;
+}
+
+.btn_person:hover {
+  color: #fefdfc;
+  background-color: #f3a9c8;
+  border: #f3a9c8;
+}

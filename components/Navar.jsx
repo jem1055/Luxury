@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Nav() {
   return (
     <header className="header">
@@ -71,6 +73,15 @@ export default function Nav() {
                   Galerie
                 </a>
               </li>
+
+              <div className="position-absolute top-0 end-0">
+                <Link href="/Write">
+                  <a className="nav-link">
+                    <img src="/img/lapiz.png" alt="" />
+                    <span className="text fw-bold rounded p-1"></span>
+                  </a>
+                </Link>
+              </div>
             </ul>
           </div>
         </div>

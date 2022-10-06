@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from "react";
-
 import Link from "next/link";
 import { Store } from "../utils/Store";
 
