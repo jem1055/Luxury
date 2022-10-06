@@ -4,51 +4,51 @@ const Form = () => {
       <h4 className="font_one d-flex justify-content-center">
         QUE CÉLÉBREZ-VOUS AUJOURD´HUI
       </h4>
-      <form class="row g-3 needs-validation mt-2" novalidate>
-        <div class="col-md-6">
+      <form className="row g-3 needs-validation mt-2">
+        <div className="col-md-6">
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             id="validationCustom03"
             placeholder="Nom complet"
             required
           />
-          <div class="valid-feedback">Looks good!</div>
+          <div className="valid-feedback">Looks good!</div>
         </div>
-        <div class="col-md-6">
+        <div className="col-md-6">
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             id="validationCustom03"
             placeholder="Adresse courriel"
             required
           />
-          <div class="valid-feedback">Looks good!</div>
+          <div className="valid-feedback">Looks good!</div>
         </div>
 
-        <div class="col-md-6">
+        <div className="col-md-6">
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             id="validationCustom03"
             placeholder="Numero de téléphone"
             required
           />
-          <div class="valid-feedback">Looks good!</div>
+          <div className="valid-feedback">Looks good!</div>
         </div>
-        <div class="col-md-6">
+        <div className="col-md-6">
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             id="validationCustom03"
             placeholder="Message"
             required
           />
-          <div class="valid-feedback">Looks good!</div>
+          <div className="valid-feedback">Looks good!</div>
         </div>
 
-        <div class="col-12 d-flex justify-content-center">
-          <button class="btn_person btn-lg " type="submit">
+        <div className="col-12 d-flex justify-content-center">
+          <button className="btn_person btn-lg " type="submit">
             ENVOYER
           </button>
         </div>
