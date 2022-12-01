@@ -1,0 +1,32 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/Galerie",
+        "destination": "/Galerie.html"
+      },
+      {
+        "source": "/Propos",
+        "destination": "/Propos.html"
+      },
+      {
+        "source": "/Car",
+        "destination": "/Car.html"
+      },
+      {
+        "source": "/TableCar",
+        "destination": "/TableCar.html"
+      },
+      {
+        "source": "/[slug]",
+        "destination": "/product/[slug].html"
+      }
+    ]
+  }
+}
