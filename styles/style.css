@@ -5,9 +5,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Helvetica W01 Light";
+  src: url("../public/font/Helvetica W01 Light.ttf");
+  font-weight: 14px/1.79em;
+  font-style: normal;
+}
+
 .font_one {
-  font-family: Fashion Fetish;
-  font-weight: 400;
+  font-family: Helvetica W01 Light;
+  font-weight: 14px/1.79em;
 }
 
 .fondo {
@@ -116,7 +123,14 @@
 }
 
 footer {
+  background: #f4f4f4;  
+}
+
+.footer_one {
   background: #f4f4f4;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .icon-footer {
@@ -277,9 +291,6 @@ h3 {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -407,11 +418,5 @@ h3 {
 .fh4 {
   background: #f4f4f4;
 }
-
-
-
-
-
-
 
 

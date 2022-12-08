@@ -9,21 +9,20 @@ export default function Home({ children, tittle, description, home }) {
     <>
       {home ? (
         <div
-          style={{
-            background: 'url("/img/Fondo.jpg")',
-            backgroundColor: "#ff666",
-            width: "100%",
-            height: "100vh",
-            backgroundRepeat: "no-repeat",
-            backgroundAttachment: "fixed",
-            backgroundSize: "cover",
-          }}
-        >
+        style={{
+          background: 'url("/img/Fondo.jpg")',
+          backgroundColor: "#ff666",
+          width: "100%",
+          height: "100vh",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+          backgroundSize: "cover",
+        }}>
           <Head>
             <title>{tittle}</title>
             <meta name="description" content={description} />
             <link rel="icon" href="/img/favicon.ico" />
-            {/* <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossOrigin="use-credentials" /> */}
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
           </Head>
 
           <header>
@@ -38,9 +37,9 @@ export default function Home({ children, tittle, description, home }) {
 
           <main>{children}</main>
 
-          {/* <footer>
+          <footer className="footer_one">
             <Footer />
-          </footer> */}
+          </footer>
 
           <script src="/js/jquery-3.5.1.min.js" />
           <script src="/js/popper.min.js" />
@@ -53,8 +52,8 @@ export default function Home({ children, tittle, description, home }) {
             <title>{tittle}</title>
             <meta name="description" content={description} />
             <link rel="icon" href="/img/favicon.ico" />
-            {/* <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossOrigin="use-credentials" /> */}
-           </Head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
+          </Head>
 
           <header>
             <div>

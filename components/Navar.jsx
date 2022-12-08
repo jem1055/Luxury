@@ -31,7 +31,7 @@ export default function Nav() {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a className="dropdown-item" href="/Forfaits">
                       Nos forfaits
                     </a>
                   </li>
@@ -42,7 +42,7 @@ export default function Nav() {
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a className="dropdown-item" href="/Denfant">
                       Fête d´enfants
                     </a>
                   </li>
@@ -54,6 +54,11 @@ export default function Nav() {
                   <li>
                     <a className="dropdown-item" href="/">
                       Événements corporatifs
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/Bapteme">
+                      Bapteme 
                     </a>
                   </li>
                 </ul>
